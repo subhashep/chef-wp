@@ -1,4 +1,4 @@
-apt_package "mysql-server-5.6" do
+apt_package "mysql-server-5.7" do
 action:install
 end
 
@@ -6,7 +6,7 @@ apt_package "nginx-extras" do
 action :install
 end
 
-apt_package "php5-fpm" do
+apt_package "php7-fpm" do
 action :install
 end
 
